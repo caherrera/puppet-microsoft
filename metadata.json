@@ -3,22 +3,16 @@
   "version": "0.1.0",
   "author": "Carlos Herrera",
   "summary": "",
-  "license": "\u001b[2DApache-2.0",
+  "license": "Apache-2.0",
   "source": "",
   "dependencies": [
 
   ],
   "operatingsystem_support": [
     {
-      "operatingsystem": "Debian",
-      "operatingsystemrelease": [
-        "8"
-      ]
-    },
-    {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
-        "16.04"
+        "18.04"
       ]
     }
   ],
@@ -26,6 +20,10 @@
     {
       "name": "puppet",
       "version_requirement": ">= 4.10.0 < 7.0.0"
+    },
+    {
+      "name": "apt",
+      "version_requirement": ">= 6.0.0 < 7.0.0"
     }
   ],
   "pdk-version": "1.9.0",
