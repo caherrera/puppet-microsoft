@@ -5,4 +5,5 @@
 # @example
 #   include microsoft
 class microsoft {
+  contain 'microsoft::install'
 }
